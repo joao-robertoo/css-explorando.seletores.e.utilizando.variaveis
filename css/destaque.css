@@ -2,21 +2,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4.75rem 0;
-    background-color: #fff5eb;
-  } 
-  
-  .banner {
+    padding: 80px 0;
+    background-color: #FFF5EB;
+}
+
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .destaque-titulo {
-    font-size: 4.5rem;
-    color: #a2b72b;
-  } 
-  
-  .destaque-titulo > span {
-    color: #ee6451;
-  }
+}
+
+.destaque-titulo {
+    font-family: "Sigmar", sans-serif;
+    font-size: 4rem;
+    color: #EE5461;
+}
+
+.destaque-titulo>span {
+    color: #A2B72B;
+}
