@@ -20,15 +20,15 @@
     align-items: center;
 }
 
-.servicos-lista > li > .link {
+.servicos-lista>li>.link {
     position: relative;
     background-color: var(--cor-secundaria-light);
     text-decoration: none;
     border-radius: 1rem;
-    padding: var(--padding-m);
+    padding: var(--padding-m) var(--padding-l);
     font-family: var(--font-sigmar);
     font-size: var(--font-size-m);
-    color: var(--cor-primaria-light);
+    color: var(--cor-primaria-light)
 }
 
 .link::before {
@@ -44,23 +44,23 @@
     transition: transform 0.3s ease, left 0.3s ease;
 }
 
-.banho-e-tosa > .link::before  {
+.banho-e-tosa>.link::before {
     background-image: url("../assets/icones/banho-e-tosa.png");
 }
 
-.hospedagem > .link::before  {
+.hospedagem>.link::before {
     background-image: url("../assets/icones/hospedagem.png");
 }
 
-.veterinario > .link::before  {
+.veterinario>.link::before {
     background-image: url("../assets/icones/veterinario.png");
 }
 
-.adestramento > .link::before  {
+.adestramento>.link::before {
     background-image: url("../assets/icones/adestramento.png");
 }
 
-.petsiter > .link::before  {
+.petsiter>.link::before {
     background-image: url("../assets/icones/petsiter.png");
 }
 
@@ -70,7 +70,7 @@
     padding-left: var(--padding-xxl);
 }
 
-.link:hover::before {
+.link:hover::before{
     transform: scale(1) translateY(50%);
     left: 0.5rem;
 }

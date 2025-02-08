@@ -18,7 +18,7 @@
     flex-grow: 0.5;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid var(--cor-neutra);
+    border: 1px solid var(--cor-neutra-dark);
     padding: var(--padding-s) var(--padding-m);
     border-radius: 2rem;
 }
@@ -64,7 +64,7 @@
 
 .menu-link {
     text-decoration: none;
-    color: var(--cor-neutra);
+    color: var(--cor-neutra-dark);
     position: relative;
     padding-bottom: var(--padding-xs);
 
