@@ -19,6 +19,9 @@
     --cor-neutra-medio: #b9b9b9;
     --cor-neutra-light: #ffffff;
 
+    --cor-primaria-box-shadow: rgba(193, 55, 0.4);
+    --cor-secundaria-box-shadow: rgba(7, 11, 236, 0.363);
+
     /* Tipografia */
     --font-sigmar: "Sigmar", sans-serif;
     --font-poppins: "Poppins", sans-serif;
