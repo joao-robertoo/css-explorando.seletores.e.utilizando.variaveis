@@ -5,7 +5,7 @@
     justify-content: center;
     gap: var(--gap-xl);
     width: 100%;
-    padding: var(--padding-4xl);
+    padding: var(--padding-4xl) 0;
     background-color: var(--cor-secundaria-light);
 }
 
@@ -72,17 +72,16 @@
     cursor: pointer;
 }
 
-.opcao input[type="checkbox"] + span {
+.opcao input[type="checkbox"]+span {
     position: absolute;
     left: 0;
     width: 20px;
     height: 20px;
-    border: 1px solida var(--cor-neutra-dark);
+    border: 1px solid var(--cor-neutra-dark);
     background-color: transparent;
     border-radius: 0.25rem;
 }
 
-.opcao input[type="checkbox"]:checked + span {
+.opcao input[type="checkbox"]:checked+span {
     background-color: var(--cor-primaria-light);
 }
-
