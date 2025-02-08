@@ -36,6 +36,7 @@
     display: block;
     margin: 0 auto;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .lista-parceiros>div:nth-child(odd):hover img {

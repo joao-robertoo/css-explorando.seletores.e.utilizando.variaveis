@@ -29,6 +29,7 @@
 
 .icone-rodape {
     margin-right: 0.5rem;
+    cursor: pointer;
 
     &:last-child {
         margin-right: 0;
