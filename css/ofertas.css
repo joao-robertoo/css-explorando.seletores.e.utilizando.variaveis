@@ -44,6 +44,7 @@
     padding: var(--padding-m);
     background-color: var(--cor-primaria-light);
     color: var(--cor-neutra-light);
+    cursor: pointer;
 }
 
 .carrossel-button {

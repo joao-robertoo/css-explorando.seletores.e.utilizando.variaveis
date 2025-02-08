@@ -22,7 +22,7 @@
     --cor-neutra-light: #ffffff;
 
     --cor-primaria-box-shadow: rgba(193, 55, 36, 0.4);
-    --cor-secundaria-box-shadow: rgba(162, 183, , 0.4);
+    --cor-secundaria-box-shadow: rgba(162, 183, 62, 0.4);
 
     /* Tipografia */
     --font-sigmar: "Sigmar", sans-serif;
@@ -60,6 +60,16 @@
     --gap-xxl: 2.5rem;
     --gap-xxxl: 6rem;
 }
+
+@keyframes appear {
+    from {
+      opacity: 0;
+      scale: 0.3; 
+    } to {
+      opacity: 1;
+      scale: 1;
+    }
+  }
 
 h1,
 h2,
@@ -101,6 +111,10 @@ body {
 
 .container {
     width: 1200px;
+
+    animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0;
 
     @media (max-width: 768px) {
         width: 648px;
